@@ -26,6 +26,129 @@
 
     <style>
 
+        /* ONLY MIDDLE CONTENT COMPACT */
+.hero-circle{
+    width:300px !important;
+    height:300px !important;
+}
+.finance-hero{
+    padding:25px 0 15px !important;
+}
+
+.hero-title{
+    font-size:48px !important;
+    margin-bottom:10px !important;
+}
+
+.title-line{
+    margin-bottom:15px !important;
+}
+
+.hero-desc{
+    font-size:17px !important;
+    line-height:1.5 !important;
+    margin-bottom:18px !important;
+}
+
+.hero-box{
+    padding:16px 18px !important;
+}
+
+.hero-box h5{
+    font-size:24px !important;
+}
+
+.hero-box p{
+    font-size:15px !important;
+}
+
+/* RIGHT SIDE */
+
+.hero-circle{
+    width:360px !important;
+    height:360px !important;
+}
+
+.finance-card{
+    width:220px !important;
+    top:35px !important;
+    left:70px !important;
+    padding:16px !important;
+}
+
+.graph{
+    height:90px !important;
+}
+
+.pie{
+    width:60px !important;
+    height:60px !important;
+}
+
+.calculator{
+    transform:scale(.75);
+    transform-origin:left bottom;
+}
+
+.coins{
+    transform:scale(.75);
+    transform-origin:left bottom;
+}
+
+.pen{
+    width:130px !important;
+    height:12px !important;
+}
+
+/* SECTION TITLE */
+
+.section-title{
+    margin:18px 0 18px !important;
+}
+
+.section-title h2{
+    font-size:32px !important;
+}
+
+/* CARDS */
+
+.finance-card-box{
+    padding:22px 18px !important;
+}
+
+.card-icon{
+    width:80px !important;
+    height:80px !important;
+    font-size:36px !important;
+}
+
+.finance-card-box h3{
+    font-size:24px !important;
+    margin:18px 0 10px !important;
+}
+
+.finance-card-box p{
+    font-size:15px !important;
+    line-height:1.5 !important;
+    margin-bottom:18px !important;
+}
+
+.card-btn{
+    padding:10px 20px !important;
+    font-size:15px !important;
+}
+
+/* INFO BAR */
+
+.info-bar{
+    margin:18px 0 18px !important;
+    padding:12px 18px !important;
+}
+
+.info-text{
+    font-size:16px !important;
+}
+
         *{
             margin:0;
             padding:0;
@@ -37,6 +160,7 @@
             background:#ffffff;
             overflow-x:hidden;
             color:#222;
+            height:100vh;
         }
 
         a{
@@ -49,7 +173,7 @@
 
         .finance-hero{
             position:relative;
-            padding:70px 0 60px;
+            padding:30px 0 20px;
             background:
             radial-gradient(circle at top right,#ffe3f0 0%,#fff 60%);
             overflow:hidden;
@@ -67,7 +191,7 @@
         }
 
         .hero-title{
-            font-size:72px;
+            font-size:48px;
             font-weight:800;
             color:#c2185b;
             line-height:1.1;
@@ -135,8 +259,8 @@
         }
 
         .hero-circle{
-            width:520px;
-            height:520px;
+            width:360px;
+            height:360px;
             background:rgba(255,0,119,0.08);
             border-radius:50%;
             margin:auto;
@@ -145,9 +269,9 @@
 
         .finance-card{
             position:absolute;
-            top:60px;
-            left:110px;
-            width:300px;
+            left:70px;
+            top:40px;
+            width:220px;
             background:#fff;
             border-radius:24px;
             padding:25px;
@@ -254,7 +378,7 @@
 
         .section-title{
             text-align:center;
-            margin:70px 0 50px;
+            margin:20px 0 20px;
         }
 
         .section-title h2{
@@ -272,7 +396,7 @@
             overflow:hidden;
             background:#fff;
             border-radius:30px;
-            padding:40px 35px;
+            padding:24px 20px;
             height:100%;
             border:1px solid #f6d8e6;
             box-shadow:0 12px 30px rgba(0,0,0,0.06);
@@ -306,7 +430,7 @@
 
         .finance-card-box h3{
             text-align:center;
-            font-size:42px;
+            font-size:28px;
             font-weight:800;
             margin:30px 0 18px;
         }
@@ -321,10 +445,10 @@
 
         .finance-card-box p{
             text-align:center;
-            font-size:22px;
+            font-size:16px;
             line-height:1.8;
             color:#444;
-            margin-bottom:35px;
+            margin-bottom:20px;
         }
 
         .card-btn{
@@ -332,10 +456,10 @@
             align-items:center;
             justify-content:center;
             gap:10px;
-            padding:16px 38px;
+            padding:12px 24px;
             border-radius:50px;
             color:#fff;
-            font-size:22px;
+            font-size:16px;
             font-weight:700;
             transition:0.3s;
         }
@@ -379,11 +503,11 @@
         ====================================== */
 
         .info-bar{
-            margin:55px 0 70px;
+            margin:20px 0 20px;
             background:linear-gradient(to right,#fff0f6,#fff7fb);
             border:1px solid #ffd2e5;
             border-radius:70px;
-            padding:22px 28px;
+            padding:14px 20px;
             display:flex;
             align-items:center;
             justify-content:space-between;
